@@ -12,14 +12,28 @@ These is a demo application to achieve the Web Crawler functunality
 2. Recommended Spring suite ide tool to import the project because it's a spring boot application.
 
 ## How to build and run the solution:
-
 ```
 	## Approach 1
+	1. Go to path https://github.com/gautam753/webCrawler
+	2. User can find a jar file named as "WebCrawlerSampleProject-1.0.0.jar".
+	3. Downlaod the jar file in a folder.
+	4. Nevigate to the folder.
+	5. Open command prompt and Nevigate to the folder where the jar file has been downladed.
+	6. Run command "java -jar WebCrawlerSampleProject-1.0.0.jar" to run the spring boot application.
+	7. After running the spring boot application user needs to input the service url and go.
+	8. Service URL: http://localhost:8080/webcrawl?crawledUrl=https://www.prudential.co.uk/&depth=2
+	9. User can set "crawledUrl" whatever user wants as an URL and "depth" must be an integer.
+	10. Usre will get the outpt as a JSON format in the browser and Spring suite tool console.
+	11. It will take some time to get the output in the browser. After getting the output, copy the output and paste it to a json viewer to view the output properly.
+```
+
+```
+	## Approach 2
 	1. Import the project in a workspace.
 	2. Hence it's a MAVEN project, execute maven update to download all the dependent jar files.
 	3. Right click on the project and click "Run As" option and select the "Spring Boot App" to run the application.
 	4. The application is designed as a RESTFUL API Architecture, I have created a service to get the functionlity. It's a GET service. The service takes two parameters as "crawledUrl" to pass the url and "depth" to pass to level. Go to step 7.
-	5. After running the spring boot application user nedds to input the service url and go.
+	5. After running the spring boot application user needs to input the service url and go.
 	6. Service URL: http://localhost:8080/webcrawl?crawledUrl=https://www.prudential.co.uk/&depth=2
 	7. User can set "crawledUrl" whatever user wants as an URL and "depth" must be an integer.
 	8. Usre will get the outpt as a JSON format in the browser and Spring suite tool console.
@@ -27,11 +41,11 @@ These is a demo application to achieve the Web Crawler functunality
 ```
 
 ```
-	## Approach 2
+	## Approach 3
 	1. Import the project in a workspace.
 	2. Hence it's a MAVEN project, execute maven update to download all the dependent jar files.
 	3. Right click on the project and click "Run As" option, select the "Maven build" option, it will prompt a "Run Configuration" dialogue box. User need to set the "Base directory", set the goal as "-e clean install package" and check the "Skip Tests" checkbox, then apply and run. It will generate a jar file named as "WebCrawlerSampleProject-1.0.0". Nevigate to the target folder of the project where the jar file has been generated and open command prompt. Now input the command as "WebCrawlerSampleProject-1.0.0" and enter. The spring boot application will run. 
-	4. After running the spring boot application user nedds to input the service url and go.
+	4. After running the spring boot application user needs to input the service url and go.
 	5. Service URL: http://localhost:8080/webcrawl?crawledUrl=https://www.prudential.co.uk/&depth=2
 	6. User can set "crawledUrl" whatever user wants as an URL and "depth" must be an integer.
 	7. Usre will get the outpt as a JSON format in the browser and Spring suite tool console.
@@ -1326,4 +1340,4 @@ Response:
 
 ## Authors
 
-* **Goutam Paul** - *Demo* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Goutam Paul** - *Demo* - [webCrawler](https://github.com/gautam753/webCrawler)
