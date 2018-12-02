@@ -4,26 +4,26 @@ Web Crawler
 
 ## Getting Started
 
-These is a demo application to achieve the Web Crawler functunality
+These is a demo application to achieve the Web Crawler functionality
 
 ### Prerequisites
 
 1. Java 8 must be installed and need to set the java path properly to load the classes.
-2. Recommended Spring suite ide tool to import the project because it's a spring boot application.
+2. Recommended Spring suite idea tool to import the project because it's a spring boot application.
 
 ## How to build and run the solution:
 ```
 	## Approach 1
 	1. Go to path https://github.com/gautam753/webCrawler
 	2. User can find a jar file named as "WebCrawlerSampleProject-1.0.0.jar".
-	3. Downlaod the jar file in a folder.
-	4. Nevigate to the folder.
-	5. Open command prompt and Nevigate to the folder where the jar file has been downladed.
+	3. Download the jar file in a folder.
+	4. Navigate to the folder.
+	5. Open command prompt and Navigate to the folder where the jar file has been downloaded.
 	6. Run command "java -jar WebCrawlerSampleProject-1.0.0.jar" to run the spring boot application.
 	7. After running the spring boot application user needs to input the service url and go.
 	8. Service URL: http://localhost:8080/webcrawl?crawledUrl=https://www.prudential.co.uk/&depth=2
 	9. User can set "crawledUrl" whatever user wants as an URL and "depth" must be an integer.
-	10. Usre will get the outpt as a JSON format in the browser and Spring suite tool console.
+	10. User will get the output as a JSON format in the browser and Spring suite tool console.
 	11. It will take some time to get the output in the browser. After getting the output, copy the output and paste it to a json viewer to view the output properly.
 ```
 
@@ -36,7 +36,7 @@ These is a demo application to achieve the Web Crawler functunality
 	5. After running the spring boot application user needs to input the service url and go.
 	6. Service URL: http://localhost:8080/webcrawl?crawledUrl=https://www.prudential.co.uk/&depth=2
 	7. User can set "crawledUrl" whatever user wants as an URL and "depth" must be an integer.
-	8. Usre will get the outpt as a JSON format in the browser and Spring suite tool console.
+	8. User will get the output as a JSON format in the browser and Spring suite tool console.
 	9. It will take some time to get the output in the browser. After getting the output, copy the output and paste it to a json viewer to view the output properly.
 ```
 
@@ -44,16 +44,16 @@ These is a demo application to achieve the Web Crawler functunality
 	## Approach 3
 	1. Import the project in a workspace.
 	2. Hence it's a MAVEN project, execute maven update to download all the dependent jar files.
-	3. Right click on the project and click "Run As" option, select the "Maven build" option, it will prompt a "Run Configuration" dialogue box. User need to set the "Base directory", set the goal as "-e clean install package" and check the "Skip Tests" checkbox, then apply and run. It will generate a jar file named as "WebCrawlerSampleProject-1.0.0". Nevigate to the target folder of the project where the jar file has been generated and open command prompt. Now input the command as "WebCrawlerSampleProject-1.0.0" and enter. The spring boot application will run. 
+	3. Right click on the project and click "Run As" option, select the "Maven build" option, it will prompt a "Run Configuration" dialogue box. User need to set the "Base directory", set the goal as "-e clean install package" and check the "Skip Tests" checkbox, then apply and run. It will generate a jar file named as "WebCrawlerSampleProject-1.0.0". Navigate to the target folder of the project where the jar file has been generated and open command prompt. Now input the command as "WebCrawlerSampleProject-1.0.0" and enter. The spring boot application will run. 
 	4. After running the spring boot application user needs to input the service url and go.
 	5. Service URL: http://localhost:8080/webcrawl?crawledUrl=https://www.prudential.co.uk/&depth=2
 	6. User can set "crawledUrl" whatever user wants as an URL and "depth" must be an integer.
 	7. Usre will get the outpt as a JSON format in the browser and Spring suite tool console.
 	8. It will take some time to get the output in the browser. After getting the output, copy the output and paste it to a json viewer to view the output properly.
 ```
-### Reasoning and describe any trade offs:
+### Reasoning and describe any tradeoffs:
 
-Due to lack of of time I am not able to implement the multi-threading concepts in this application.
+Due to lack of time I am not able to implement the multi-threading concepts in this application.
 
 ### Explanation of what could be done with more time:
 
