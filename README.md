@@ -51,6 +51,15 @@ These is a demo application to achieve the Web Crawler functionality
 	7. Usre will get the outpt as a JSON format in the browser and Spring suite tool console.
 	8. It will take some time to get the output in the browser. After getting the output, copy the output and paste it to a json viewer to view the output properly.
 ```
+
+```
+	## Approach 4
+	1. Import the project in a workspace.
+	2. Hence it's a MAVEN project, execute maven update to download all the dependent jar files.
+	3. Navigate to src/test/java/com/crawler/web and you will find WebCrawlerControllerTest.java test class. Just run the java class as "JUnit Test".
+	4. You will get the outpt as a JSON format in the IDE console.
+	8. It will take some time to get the output. After getting the output, copy the output and paste it to a json viewer to view the output properly.
+```
 ### Reasoning and describe any tradeoffs:
 
 Due to lack of time I am not able to implement the multi-threading concepts in this application.
